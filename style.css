@@ -450,25 +450,40 @@ nav{
 .label-menu{
     display: flex;
     flex-direction: column;
-   align-items: center;
-    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
     margin-left: 0px;
 
 }
-/* .middle-t{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+.label-menu > .placeyOrder{
+    height: 40px;
+}
+.fruits{
+  width: 50px;
+    height: 50px;
+}
+.middle-t{
+    height: 310px;
+}
 .container-2{
     width: 350px;
 }
 .container-2 > h1{
     font-size: 20px;
+    font-size: medium;
+}
+.container-3{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
 }
 .services{
     /* width: 424px; */
     align-items: center;
+    font-size: small;
+    height: 500px;
 }
 .text-1{
     width: 300px;
@@ -477,14 +492,16 @@ nav{
     display: flex;
     flex-direction: column;
 }
-.text-2{
-    width: 300px;
-}
 .card{
-    width: 200px;
-    height: 500px;
+    width: 250px;
+    /* height: 300px; */
     margin-bottom: 20px;
     
+}
+.text-2{
+    width: 300px;
+    font-size: small;
+    text-align: center;
 }
 .grid-container{
     display: flex;
@@ -495,9 +512,44 @@ nav{
     height: 100px;
     /* display: flex nowrap; */
 }
+.img-2{
+    width: 50px;
+    height: 50px;
+}
 .img-3{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+   width: 50px;
+   height: 50px;
+    margin-left: 30px;
+}
+.location{
+  width: 400px;
+  background-color: antiquewhite;
+  margin-left: 10px;
+}
+.loc-text{
+    font-size: xx-small;
+    width: 100px;
+}
+.loc-text2{
+    width: 50px;
+}
+footer{
+    font-size: xx-small;
+    align-items: center;
+}
+.first-1, .first-3{
+ width: 40px;
+}
+.first-2{
+    width: 30px;
+    height: 30px;
+}
+.footer-container{
+    margin-top: -120px;
+    width: 300px;
+    align-self: center;
+}
+.footer-item{
+    font-size: xx-small;
 }
 }
