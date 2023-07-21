@@ -389,18 +389,29 @@ button.placeyOrder{
 
 
 @media screen and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
    .head{
-         flex-direction: column;
-         height: 100px;
-         justify-content: space-evenly;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
    }
    .container-1{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-top: -10px;
+   }
+   .container-11{
+    font-size: x-small;
+   }
+   .container-12{
+    font-size: x-small;
    }
    .day{
     margin: 0px;
+    font-size: x-small;
    }
    .menu{
     display: flex;
@@ -425,6 +436,7 @@ nav{
     top: -40px;
     margin-left: -250px;
     flex: none;
+    background-color: yellowgreen;
 }
 .menus > ul{
     display: flex;
